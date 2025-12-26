@@ -1,0 +1,62 @@
+.stories-section {
+    background-color: #f9f9f9;
+}
+
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.story-card {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.story-tag {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--accent-orange);
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.story-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--dark-blue);
+}
+
+.story-desc {
+    font-size: 15px;
+    color: #666;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.read-more {
+    font-weight: 600;
+    color: var(--primary-blue);
+    font-size: 14px;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.stories-action {
+    text-align: center;
+}
